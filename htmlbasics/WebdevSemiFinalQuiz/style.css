@@ -1,0 +1,32 @@
+.container {
+    width: 832px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #dcd3d3;
+    position: relative;
+    
+}
+
+.img-txt {
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.heading-text {
+    position: absolute;
+    top: 85px;
+    left: 30%;
+}
+
+.img-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+footer {
+    background-color: #aca9a9;
+    text-align: start;
+    
+}
